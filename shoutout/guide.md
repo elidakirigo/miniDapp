@@ -1,0 +1,5 @@
+- change this page so that it displays recent messages, similar to a (very) basic version of Twitter
+- There should also be a box for posting a message.
+- we're removing categories since posts no longer need them
+- Then we are moving the ‘all recent messages’ view to the front page
+- there must be a way to post/broadcast a message and a way to display messages that others have sent.

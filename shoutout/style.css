@@ -1,82 +1,81 @@
+.titlebar {
+	width: 100%;
+	height: 50px;
+	text-align: left;
 
-.titlebar{
-  width:100%;
-  height:50px;
-  text-align: left;
-  
-  max-width:840;
-  text-align: left;
-  border: 2px solid #0000ff;
-  border-radius: 10px;
-}
-
-.mainview{
-	max-width:800;
-	margin-left: auto;
-  	margin-right: auto;
-	padding:20;
+	max-width: 840;
+	text-align: left;
 	border: 2px solid #0000ff;
 	border-radius: 10px;
-	background-color: #fff;	
 }
 
-.allcatsview{
-	text-align:left;
-	max-width:800;
+.mainview {
+	max-width: 800;
 	margin-left: auto;
-  	margin-right: auto;
-	padding:20;
+	margin-right: auto;
+	padding: 20;
 	border: 2px solid #0000ff;
 	border-radius: 10px;
-	background-color: #fff;	
+	background-color: #fff;
 }
 
-.table_left{
+.allcatsview {
+	text-align: left;
+	max-width: 800;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20;
+	border: 2px solid #0000ff;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.table_left {
 	white-space: nowrap;
-	text-align:right;
-	vertical-align:top;
+	text-align: right;
+	vertical-align: top;
 }
 
-.table_right{
+.table_right {
 	white-space: nowrap;
-	width:100%;
-	text-align:left;
+	width: 100%;
+	text-align: left;
 }
 
-.inputtype{
-	min-width:200;
+.inputtype {
+	min-width: 200;
 }
 
-.maincategory{
-	width:100%;
+.maincategory {
+	width: 100%;
 	font-size: 18px;
 }
 
-.subcategory{
-	width:100%;
+.subcategory {
+	width: 100%;
 	font-size: 16px;
 }
 
-.newtopicstyle{
-	width:100%;
+.newtopicstyle {
+	width: 100%;
 	font-size: 18px;
 }
 
-.topiclist{
-	width:100%;
-	padding:10;
+.topiclist {
+	width: 100%;
+	padding: 10;
 	border: 2px solid #0000ff;
 	border-radius: 10px;
 	background-color: #fff;
 }
 
 .solobutton {
-    background-color: #eee;
-    border: 0.5px solid #EDEDED;
-  	border-radius: 8px;
-  	padding: 4px 4px;
-  	font-family: Manrope;
-  	font-size: 14px;
+	background-color: #eee;
+	border: 0.5px solid #ededed;
+	border-radius: 8px;
+	padding: 4px 4px;
+	font-family: Manrope;
+	font-size: 14px;
 }
 .solobutton-edit {
 	font-family: Manrope;
@@ -84,110 +83,110 @@
 }
 .solobutton-edit:focus {
 	font-family: Manrope;
-	border: 0.5px solid #EDEDED;
+	border: 0.5px solid #ededed;
 }
 
 .solobutton:hover {
 	font-family: Manrope;
 	cursor: pointer;
-    color: #fff;
+	color: #fff;
 	background-color: #0000ff;
-  	border-radius: 8px;
-  	padding: 4px 4px;
-	border-color: #16181C;
+	border-radius: 8px;
+	padding: 4px 4px;
+	border-color: #16181c;
 }
 
 .solobutton[disabled]:hover {
 	cursor: default;
-    color: #fff;
-    background-color: #eee;
-    border: 0.5px solid #EDEDED;
-  	border-radius: 8px;
-  	padding: 4px 4px;
-  	font-size: 14px;
+	color: #fff;
+	background-color: #eee;
+	border: 0.5px solid #ededed;
+	border-radius: 8px;
+	padding: 4px 4px;
+	font-size: 14px;
 }
 
 .solobutton:active {
-  	opacity: 0.8;
+	opacity: 0.8;
 	font-style: italic;
 }
 
-.topictitle{
+.topictitle {
 	font-size: 20px;
 }
 
 .topictitle:link {
-  color: blue;
+	color: blue;
 }
 .topictitle:visited {
-  color: blue;
+	color: blue;
 }
 .topictitle:hover {
-  color: #8888ff;
+	color: #8888ff;
 }
 .topictitle:active {
-  color: blue;
+	color: blue;
 }
 
 .ellipsistext {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  max-width:300;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 300;
 }
 
-.topicheader{
+.topicheader {
 	font-size: 20px;
 	font-style: bold;
-	max-width:800;
+	max-width: 800;
 	margin-left: auto;
-  	margin-right: auto;
-	padding:20;
+	margin-right: auto;
+	padding: 20;
 	border: 2px solid #0000ff;
 	border-radius: 10px;
-	background-color: #fff;	
+	background-color: #fff;
 }
 
-.topicwindow{
-	text-align:left;
+.topicwindow {
+	text-align: left;
 	font-size: 16px;
-	max-width:800;
+	max-width: 800;
 	margin-left: auto;
-  	margin-right: auto;
-	padding:20;
+	margin-right: auto;
+	padding: 20;
 	border: 2px solid #0000ff;
 	border-radius: 10px;
-	background-color: #fff;	
+	background-color: #fff;
 }
 
-.topicusername{
+.topicusername {
 	font-style: bold;
-	vertical-align:top;
-	text-align:right;
-	font-size: 16px;	
-}
-
-.topicmessage{
-	vertical-align:top;
-	text-align:left;
+	vertical-align: top;
+	text-align: right;
 	font-size: 16px;
-	width:100%;	
 }
 
-.topicdate{
-	text-align:right;
-	font-size: 12px;	
+.topicmessage {
+	vertical-align: top;
+	text-align: left;
+	font-size: 16px;
+	width: 100%;
 }
 
-.topicinput{
-	width:100%;
-	resize: vertical; 
-	font-size: 14px;	
+.topicdate {
+	text-align: right;
+	font-size: 12px;
+}
+
+.topicinput {
+	width: 100%;
+	resize: vertical;
+	font-size: 14px;
 }
 
 .temporary-pulse {
-  -webkit-animation-iteration-count: 3!important;
-  animation-iteration-count: 3!important;
+	-webkit-animation-iteration-count: 3 !important;
+	animation-iteration-count: 3 !important;
 }
 
 select {
@@ -196,13 +195,13 @@ select {
 	appearance: none;
 	padding-right: 25px; /* Adjust the padding to make room for the custom arrow */
 	background: url('caret-down.svg') no-repeat right center; /* Add your custom arrow icon */
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 }
 
 select::after {
 	content: '\25BC'; /* Unicode character for a down arrow */
 	font-size: 14px;
-	color: #08090B;
+	color: #08090b;
 	position: absolute;
 	top: 50%;
 	right: 8px;
