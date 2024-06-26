@@ -85,69 +85,36 @@
 		<script type="text/javascript" src="sql.js"></script>
 	</head>
 
-	<body class="flex justify-center">
-		<div class="mx-4 md:mx-0 pb-4 flex justify-between max-w-[1028px] items-start m-8">
-			<div>
-				<div onclick="showTitleOnAndroid();" class="w-full max-w-[800px] h-[50px] mx-auto bg-white p-5 pt-0">
-					<div class="flex w-full justify-between flex-col justify-center">
-						<div class="flex items-center gap-2 flex-col">
-							<img src="shoutout.png" class="w-[44px] h-[44px]" />
-							<h1 class="pb-4 font-semibold">ShoutOut</h1>
-						</div>
-						<div class="flex items-center gap-5 flex-col">
-							<svg onclick="event.stopPropagation(); jumpHome();" class="w-[24px] h-[24px] hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<path d="M5 12l-2 0l9 -9l9 9l-2 0" />
-								<path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-								<path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-							</svg>
-							<svg xmlns="http://www.w3.org/2000/svg" onclick="event.stopPropagation(); jumpSettings();" class="w-[24px] h-[24px] hover:cursor-pointer" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-								<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-								<path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
-								<path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-							</svg>
-						</div>
-					</div>
-				</div>
+	<body>
+		<div class="mx-4 md:mx-0 pb-4  m-8">
+			<div class="py-4" onclick="showTitleOnAndroid();">
+				<table class="w-full max-w-[800px] h-[50px] mx-auto bg-white">
+					<tr>
+						<td class="flex w-full justify-between">
+							<div class="flex items-center gap-2">
+								<img src="shoutout.png" class="w-[44px] h-[44px]" />
+								<h1 class="font-semibold">ShoutOut</h1>
+							</div>
+							<div class="flex items-center gap-2">
+								<svg xmlns="http://www.w3.org/2000/svg" onclick="event.stopPropagation(); jumpSettings();" class="w-[24px] h-[24px] hover:cursor-pointer" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
+									<path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+								</svg>
+								<svg onclick="event.stopPropagation(); jumpHome();" class="w-[24px] h-[24px] hover:cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+									<path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+									<path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+								</svg>
+							</div>
+						</td>
+					</tr>
+				</table>
 			</div>
 			<!-- <br /> -->
 			<div>
-				<div class="w-full max-w-[800px] mx-auto p-4 bg-slate-200 rounded-lg">
-					<table width="100%" border="0">
-						<tr>
-							<td colspan="2" class="font-semibold">Category</td>
-						</tr>
-
-						<tr>
-							<td class="table_right">
-								<input placeholder="Search category" type="text" id="currentcategory" class="w-full px-4 py-2 rounded outline-slate-200 focus:mr-1 focus:rounded-r-lg" />
-							</td>
-							<td nowrap>
-								<button class="h-[40px] rounded ml-1 text-sm bg-black text-white px-2 font-bold py-1 hover:bg-opacity-80 outline-slate-200" onclick="jumpCategory()">Go</button>
-								<button class="h-[40px] rounded text-sm bg-black text-white px-2 font-bold py-1 hover:bg-opacity-80 outline-slate-200" onclick="jumpUpCategory()">Up</button>
-								<button class="h-[40px] rounded text-sm bg-black text-white px-2 font-bold py-1 hover:bg-opacity-80 outline-slate-200" onclick="jumpViewAllCategory()">View All</button>
-							</td>
-						</tr>
-						<tr>
-							<td class="h-[10px]"></td>
-						</tr>
-						<tr>
-							<td colspan="2" class="font-semibold">Sub-category</td>
-						</tr>
-
-						<tr>
-							<td>
-								<select id="subcategories" onchange="subChange()" class="h-[40px] w-full px-4 py-2 rounded outline-slate-200 focus:mr-1 focus:rounded-r-lg"></select>
-							</td>
-							<td nowrap>
-								<button class="h-[40px] ml-1 rounded text-sm bg-black text-white px-2 font-bold py-1 hover:bg-opacity-80 outline-slate-200" onclick="jumpRecent()">All Recent Messages</button>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<!-- <br /> -->
-
-				<div class="w-full max-w-[800px] mx-auto p-4 bg-slate-200 rounded-lg rounded-b-none" id="topicstable" style="display: none">
+				<div class="w-full max-w-[800px] mx-auto p-4 bg-slate-200 rounded-lg rounded-b-none" id="topicstable">
 					<table class="w-full border-none">
 						<tr>
 							<td>
@@ -216,9 +183,8 @@
 					<button id="nextbutton" onclick="nextBatch();" class="h-[40px] px-4 rounded ml-1 text-sm bg-black text-white px-6 font-bold py-1 hover:bg-opacity-80 outline-slate-200 disabled:bg-opacity-50">Next</button>
 				</div>
 
-				<div class="mx-4 md:mx-0 pb-4"> 
-
-					<div class="max-w-[800px] w-full mx-auto font-semibold" id="usertitle">All recent messages</div>
+				<div class="mx-4 md:mx-0 pb-4">
+					<div class="max-w-[800px] w-full mx-auto pt-4 font-semibold" id="usertitle">All recent messages</div>
 					<br />
 					<div class="w-full max-w-[800px] mx-auto p-4 bg-slate-200 rounded-lg" id="recentmsg"></div>
 					<br />
@@ -679,13 +645,13 @@
 
 						nextback.style.display = 'none'
 						if (CURRENT_CATEGORY == '') {
-							topicstable.style.display = 'none'
+							// topicstable.style.display = 'none'
 							//nextback.style.display = "none";
 							emptycat.style.display = 'flex'
 						} else {
 							topicstable.style.display = 'block'
 							//nextback.style.display = "flex";
-							emptycat.style.display = 'none'
+							// emptycat.style.display = 'none'
 
 							//Disable button
 							newtopicbutton.disabled = true
